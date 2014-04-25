@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.yammer.dropwizard:dropwizard-scala_2.9.1:0.6.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/yammer/dropwizard/dropwizard-scala_2.9.1/0.6.1/dropwizard-scala_2.9.1-0.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/yammer/dropwizard/dropwizard-scala_2.9.1/0.6.1/dropwizard-scala_2.9.1-0.6.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/yammer/dropwizard/dropwizard-scala_2.9.1/0.6.1/dropwizard-scala_2.9.1-0.6.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
