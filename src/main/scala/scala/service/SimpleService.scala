@@ -11,12 +11,13 @@ import scala.service.resources.HelloWorldResouce
 object SimpleService extends ScalaService[SimpleServiceConfiguration]{
 
   def initialize(bootstrap: Bootstrap[SimpleServiceConfiguration]){
-    bootstrap.setName("simple-scala")
+    bootstrap.setName("dropwizard-scala-demo")
     bootstrap.addBundle(new ScalaBundle)
   }
 
   def run(configuration: SimpleServiceConfiguration, environment: Environment ){
     environment.addResource(new HelloWorldResouce(configuration template, configuration defaultName))
+    environment.addHealthCheck(new TemplateHealthCheck(configuration template))
   }
 
 }
